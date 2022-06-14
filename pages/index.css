@@ -1,0 +1,57 @@
+/* -----------------Common styles----------------- */
+
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+/* -----------------Header styles----------------- */
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-switcher/header__lang-switcher.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/* -----------------Hero styles----------------- */
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__pic/hero__pic.css);
+@import url(../blocks/hero/__pic-desc/hero__pic-desc.css);
+
+/* -----------------Article styles----------------- */
+
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__stats/article__stats.css);
+@import url(../blocks/article/__stat/article__stat.css);
+@import url(../blocks/article/__stat-num/article__stat-num.css);
+
+/* -----------------Gallery styles----------------- */
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__pic/gallery__pic.css);
+
+/* -----------------Places styles----------------- */
+
+@import url(../blocks/places/places.css);
+
+/* -----------------Place styles----------------- */
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__name/place__name.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__pic/place__pic.css);
+@import url(../blocks/place/__desc/place__desc.css);
+
+/* -----------------Dogs styles----------------- */
+
+@import url(../blocks/dogs/dogs.css);
+@import url(../blocks/dogs/__title/dogs__title.css);
+@import url(../blocks/dogs/__subtitle/dogs__subtitle.css);
+
+/* -----------------Footer styles----------------- */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copy/footer__copy.css);
