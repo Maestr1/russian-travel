@@ -1,2 +1,4 @@
 .hero__pic {
+  display: inline-block;
+  max-width: 100%;
 }

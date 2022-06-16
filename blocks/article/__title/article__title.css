@@ -1,2 +1,7 @@
 .article__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.07;
 }
