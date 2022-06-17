@@ -1,3 +1,10 @@
 .place__desc {
-  align-self: start;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.63;
+  margin-bottom: 26px;
+}
+
+.place__desc:last-of-type {
+  margin-bottom: 0;
 }
