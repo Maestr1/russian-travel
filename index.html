@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-  <!-- <header class="header container">
+  <header class="header wide-container">
     <div class="header__logo">
       <svg width="177" height="52" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -24,13 +24,15 @@
     </div>
   </header>
   <main>
-    <section class="hero">
+    <!-- <section class="hero slim-container">
       <h1 class="hero__title">Путешествия по России</h1>
       <p class="hero__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="hero__pic-wrap"><img src="./images/lead-polka.jpg" alt="" class="hero__pic"></div>
-      <p class="hero__pic-desc">ваша полка — верхняя</p>
+      <div class="hero__pic-wrap">
+        <img src="./images/lead-polka.jpg" alt="" class="hero__pic">
+        <p class="hero__pic-desc">ваша полка — верхняя</p>
+      </div>
     </section>
-    <article class="article">
+    <article class="article slim-container">
       <h2 class="article__title">Чего мы там не видели?</h2>
       <p class="article__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
         провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная
@@ -55,33 +57,41 @@
           <p class="article__stat">Аэропортов <span class="article__stat-num">241</span></p>
         </li>
       </ul>
-    </article> -->
-  <section class="gallery container">
-    <img src="./images/photo-grid-train.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-atharva-tulsi.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-tuman.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-sochi.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-arisa.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-baikal.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-elbrus.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-kondratiev.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-kamchatka-1.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-kamchatka-2.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-baikal-2.jpg" alt="" class="gallery__pic">
-    <img src="./images/photo-grid-ergaki.jpg" alt="" class="gallery__pic">
-  </section>
-  <!-- <section class="places">
+    </article>
+    <section class="gallery wide-container">
+    <div class="gallery__grid-wrap">
+      <img src="./images/photo-grid-train.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-atharva-tulsi.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-tuman.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-sochi.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-arisa.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-baikal.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-elbrus.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-kondratiev.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-kamchatka-1.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-kamchatka-2.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-baikal-2.jpg" alt="" class="gallery__pic">
+      <img src="./images/photo-grid-ergaki.jpg" alt="" class="gallery__pic">
+    </div>
+  </section> -->
+    <section class="places slim-container">
       <article class="place">
         <h2 class="place__name">Куршская коса</h2>
-        <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+        <div>
+          <p class="place__link-desc">URL</p>
+          <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+        </div>
         <img src="./images/place-kosa.jpg" alt="" class="place__pic">
-        <p class="place__desc">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
-          Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона
-          на краю российского анклава.</p>
-        <p class="place__desc">На этом Калининградская область не заканчивается. Для путешественника и исследователя там
-          же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших
-          приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального,
-          прохладного моря.</p>
+        <div class="place__desc">
+          <p>Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
+            Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная
+            зона
+            на краю российского анклава.</p>
+          <p>На этом Калининградская область не заканчивается. Для путешественника и исследователя там
+            же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших
+            приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального,
+            прохладного моря.</p>
+        </div>
       </article>
     </section>
     <section class="dogs">
@@ -90,7 +100,7 @@
       </p>
     </section>
   </main>
-  <footer class="footer">
+  <!-- <footer class="footer">
     <nav>
       <ul class="footer__nav">
         <li>

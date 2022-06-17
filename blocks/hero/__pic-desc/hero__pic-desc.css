@@ -1,6 +1,7 @@
 .hero__pic-desc {
   margin: 0;
   padding-top: 8px;
+  justify-self: start;
   text-transform: uppercase;
   font-size: 10px;
   line-height: 1.4;

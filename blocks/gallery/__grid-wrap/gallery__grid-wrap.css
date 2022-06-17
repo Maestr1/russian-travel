@@ -1,0 +1,7 @@
+.gallery__grid-wrap {
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  max-width: 1400px;
+}
