@@ -21,11 +21,17 @@
   right: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   .cover__background:hover::after {
     opacity: 0.8;
+  }
+}
+
+@media (max-width: 1279px) {
+  .cover__background {
+    height: calc(100vw / 1.6);
   }
 }

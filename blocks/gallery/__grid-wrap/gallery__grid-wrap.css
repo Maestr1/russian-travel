@@ -5,3 +5,9 @@
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   max-width: 1400px;
 }
+
+@media (max-width: 1279px) {
+  .gallery__grid-wrap {
+    gap: 14px;
+  }
+}
