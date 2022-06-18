@@ -1,2 +1,7 @@
 .footer__nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 19px;
+  list-style: none;
 }
