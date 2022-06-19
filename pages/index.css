@@ -32,7 +32,6 @@
 /* -----------------Gallery styles----------------- */
 
 @import url(../blocks/gallery/gallery.css);
-@import url(../blocks/gallery/__grid-wrap/gallery__grid-wrap.css);
 @import url(../blocks/gallery/__pic/gallery__pic.css);
 
 /* -----------------Places styles----------------- */
