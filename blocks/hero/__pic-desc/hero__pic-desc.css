@@ -7,3 +7,15 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 1023px) {
+  .hero__pic-desc {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__pic-desc {
+    padding-left: 16px;
+  }
+}

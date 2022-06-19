@@ -4,8 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
   height: calc((100vw - 96px) / 1.6);
+  max-height: 740px;
   text-decoration: none;
   background: url(../../../images/cover-trains.jpg) no-repeat center center;
   background-size: contain;

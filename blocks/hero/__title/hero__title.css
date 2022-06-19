@@ -7,3 +7,13 @@
   font-weight: 900;
   line-height: 1.04;
 }
+
+@media (max-width: 767px) {
+  .hero__title {
+    margin-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

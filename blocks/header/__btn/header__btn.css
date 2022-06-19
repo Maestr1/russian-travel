@@ -18,3 +18,9 @@
     opacity: 0.8;
   }
 }
+
+@media (max-width: 767px) {
+  .header__btn {
+    font-size: 18px;
+  }
+}

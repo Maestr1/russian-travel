@@ -5,3 +5,9 @@
   letter-spacing: 2px;
   color: #aaa;
 }
+
+@media (max-width: 767px) {
+  .place__link-desc {
+    padding-left: 16px;
+  }
+}

@@ -8,3 +8,18 @@
 .place__desc:last-of-type {
   margin-bottom: 0;
 }
+
+@media (max-width: 1023px) {
+  .place__desc {
+    font-size: 16px;
+    line-height: 1.615;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__desc {
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.61;
+  }
+}
